@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Parisienne&display=swap');
+
+*{
+    background-color: #f8efc1;
+}
+
+
+header{
+    background-color: #f8efc1;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    color: #533363;
+    padding: 0 5%;
+    margin-left: 20%;
+    }
+
+ul{
+    text-align: center;
+}
+
+nav {
+    background-color: #f8efc1;
+    padding: 18px;
+}
+
+section {
+    background-color: #f8efc1;
+    padding: 18px;
+}
+
+.navbar {
+    display: inline;
+    padding: 12px;
+    margin: 5px;
+    color: #533363;
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+    background-color: #f2ae82;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #f2ae82;
+}
+
+span{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes{
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+}
+
+#productos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.caja{
+    width: 390px;
+    height: 415px;
+    margin: 5px;
+    border: 3px groove rgb(244, 212, 68);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #f2ae82, #e9c893);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.caja img{
+    margin: 20px;
+}
+
+footer a{
+    margin-left: 15px;
+    background-color: #f8efc1;
+}
+
+input, textarea{
+    margin-top: 5px;
+}
+
+label{
+    vertical-align: top;
+    margin-top: 30px;
+    font-family: "Arima", system-ui;
+    font-size: 14px;
+}
+
+#reseñas{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+
+#reseñas div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opinion{
+    width: 410px;
+    height: 300px;
+    margin: 5px;
+    border: 3px groove rgb(244, 212, 68);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #e317d8, #e63496);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2{
+    font-family: "Parisienne", cursive;
+    font-size: 32px;
+    color: #533363;
+}
+
+p{
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+    color: #533363;
+}
+
+section div p{
+    background-image: linear-gradient(to right, #f2ae82, #e9c893);
+}
+
+button, input, textarea{
+    border-radius: 3px;
+}
+
+@media (max-width:376px) {
+
+    section {
+        background-color: #f8efc1;
+    }
+ 
+    h2{
+        font-size: 24px;
+    }
+    header{
+        background-color: #f8efc1;
+        display: block;
+        text-align: left;
+        padding: 0px;
+    }
+
+    h1{
+        text-align: left;
+        font-size: 36px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    p{
+        font-size: 14px;
+        text-wrap: balance;
+    }
+
+    #nproductos{
+        padding: 0px;
+    }
+
+    #productos{
+        padding: 0px;
+    }
+
+    ul{
+        padding: 0px;
+    }
+
+    nav{
+        padding: 0px;
+    }
+
+
+    .navbar {
+        display: block;
+        text-align: left;
+        width: 320px;
+        padding: 6px;
+        margin: 5px;
+        color: #533363;
+        font-family: "Arima", system-ui;
+        font-size: 18px;
+        background-color: #f2ae82;
+        border-radius: 5px;
+    }
+
+    span{
+        display: block;
+    }
+    
+
+    .caja{
+        width: 350px;
+        height: 380px;
+        margin: 5px;
+        border: 3px groove rgb(244, 212, 68);
+        border-radius: 4px;
+        background-image: linear-gradient(to right, #f2ae82, #e9c893);
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .caja img{
+        margin: 5px;
+    }
+    
+    #nreseñas{
+        padding: 0px;
+    }
+
+    #reseñas{
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+        padding: 0px;
+    }
+ 
+    .opinion{
+        width: 330px;
+        height: 240px;
+        border: 1px groove rgb(244, 212, 68);
+        border-radius: 4px;
+        background-image: linear-gradient(to right, #e317d8, #e63496);
+        box-sizing: border-box;
+        text-align: center;
+        }
+
+    .opinion img{
+        max-width: 95%;
+    }    
+
+    #productos{
+        display: grid;
+        grid-template-columns: auto;
+        }
+
+}
+
+.color1 {color: #e317d8;}
+.color2 {color: #e63496;}
+.color3 {color: #f2ae82;}
+.color4 {color: #f4ec96;}
+.color5 {color: #f8efc1;}
+.color6 {color: #533363;}
+.color7 {color: #e9c893;}
