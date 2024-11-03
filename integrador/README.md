@@ -1,2 +1,0 @@
-La idea de esta página es mostrar los trabajos de pastelería hechos por mi señora en su emprendimiento, ya sean tortas personalizadas, tartas, postres clásicos u otras cosas dulces que se suelen encargar.
-Mientras más avanza el proyecto, me gustaría que a la lista de productos se le pueda agregar un carrito de compras para ofrecer ventas online y atención vía mail, ya que toda la actividad surge del contacto telefonico y redes, para captar más clientes tambien hay que desarrollar una página que simplifique el contacto.
